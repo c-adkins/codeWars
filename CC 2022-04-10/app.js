@@ -7,3 +7,10 @@ function squareDigits(num){
     num = num.join('')
     return Number(num)
   }
+
+  // refactor to one line
+
+  function squareDigits(num){
+    return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
+    
+  }
