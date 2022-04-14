@@ -17,7 +17,7 @@ function countPositivesSumNegatives(input) {
     }return [count,sum]
 }
 
-// second attempt passed. Now it is counting only ints > 0
+// second attempt passed. Now it is counting only ints > 0 but it has errors if the array is null
 function countPositivesSumNegatives(input) {
     let sum = 0;
     let count = 0;
@@ -28,4 +28,24 @@ function countPositivesSumNegatives(input) {
         count += 1
       }
     }return [count,sum]
+}
+
+// this solution first checks if the input array is an array, or if the length is 0. If either is true it returns an empty array. Else it continues to count postives and sum negatives. 
+
+function countPositivesSumNegatives(input) {
+    let sum = 0;
+    let count = 0;
+    if (!Array.isArray(input) || !input.length) {
+      return []
+    } else{
+        if (input.length > 0) {
+            for (let i = 0; i < input.length; i++){
+              if (input[i] < 0){
+                sum += input[i]
+              } else if(input[i] > 0) {
+                count += 1
+              } 
+            }return [count,sum]
+}
+}
 }
