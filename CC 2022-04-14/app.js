@@ -17,6 +17,7 @@ function countPositivesSumNegatives(input) {
     }return [count,sum]
 }
 
+// second attempt passed. Now it is counting only ints > 0
 function countPositivesSumNegatives(input) {
     let sum = 0;
     let count = 0;
