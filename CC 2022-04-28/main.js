@@ -4,6 +4,11 @@
 
 // Return true if the array contains the value, false if not.
 
+// p array and value
+// r  boolean if value is in array
+// e,x,y and e -> true
+// if a includes x true
+
 function check(a, x) {
     if (a.includes(x)){
       return true
