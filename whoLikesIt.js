@@ -12,3 +12,8 @@ function likes(names) {
   }}
 
   // add instructions and test case
+
+  // p arrary of names can be empty
+  // r - string of name likes this for each name that is in the array or no one likes this if empty
+  // e tom, sarah -> tom and sarah like this
+  // p - index of names to return string
