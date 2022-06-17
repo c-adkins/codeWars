@@ -2,6 +2,10 @@
 
 // Return True if yes, False otherwise :)
 
+// P - integer for bullets and dragons
+// R - boolean
+// E - 2, 1 -> true, 4, 3 -> false
+// P - if bullets < dragons * 2 false, else true
 function hero(bullets, dragons){
     if (bullets < dragons * 2) {
       return false
