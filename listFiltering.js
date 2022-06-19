@@ -9,7 +9,8 @@
 // P - list of intergers and strings
 // R - list without the string characters
 // E - ([1,2,'a','b']) == [1,2]
-// P - filter list for x and x is type number
+// P - filter list for x and x is type numbers
+
 
 function filter_list(l) {
     // Return a new array with the strings filtered out
