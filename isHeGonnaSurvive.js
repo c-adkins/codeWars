@@ -7,5 +7,4 @@ function hero(bullets, dragons){
       return false
     } else {
       return true
-    }
-    }
+    }}
