@@ -13,3 +13,7 @@ function getMiddle(s)
   
   return s.substring(position, position +length)
 }
+
+// P - string of unknown length
+// R - middle character or the character to the left of the middle if even number of characters
+// E - Carey -> r
