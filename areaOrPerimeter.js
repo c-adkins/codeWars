@@ -14,3 +14,8 @@ const areaOrPerimeter = function(l , w) {
   const areaOrPerimeter = function(l , w) {
     return l == w ? l*w : 2*(l + w)
   };
+
+  // P - ength and width of a 4-sided polygon in real number
+  // R - if it is a square area, else perimeter
+  // E - 2,2 -> 4. 1,2 -> 6
+  // P - find if l = w, if so return l*w. else return l*2 + w*2
