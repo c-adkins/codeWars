@@ -3,3 +3,5 @@
 function smash (words) {
     return words.join(" ")
  };
+
+ // what if you want all words lower case
